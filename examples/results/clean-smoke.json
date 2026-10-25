@@ -1,0 +1,46 @@
+[
+  {
+    "archive": "image-to-editable-ppt-claude-alpha.zip",
+    "seconds": 1.1624398610001663,
+    "npm_install_invoked": false,
+    "project_node_modules_used": false,
+    "bundled_engines": [
+      {
+        "engine": "office",
+        "package_checks": true,
+        "native_text_objects": 1,
+        "render_pages": 1
+      },
+      {
+        "engine": "gen",
+        "package_checks": true,
+        "native_text_objects": 1,
+        "render_pages": 1
+      }
+    ],
+    "host_node": "v24.19.0",
+    "claude_ai_test": false
+  },
+  {
+    "archive": "sliderecast-openai-plugin-alpha.zip",
+    "seconds": 1.124811692000094,
+    "npm_install_invoked": false,
+    "project_node_modules_used": false,
+    "bundled_engines": [
+      {
+        "engine": "office",
+        "package_checks": true,
+        "native_text_objects": 1,
+        "render_pages": 1
+      },
+      {
+        "engine": "gen",
+        "package_checks": true,
+        "native_text_objects": 1,
+        "render_pages": 1
+      }
+    ],
+    "host_node": "v24.19.0",
+    "claude_ai_test": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "schema_url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "schema_sha256": "0a4aad95ce337878ad38802ebf0daa3fde76abe3f65400c86bcbb1ec0b3ab883",
+  "validator": "jsonschema 4.25.1 Draft202012Validator",
+  "errors": [],
+  "openai_extension_portal_validation": "NOT EXECUTED"
+}

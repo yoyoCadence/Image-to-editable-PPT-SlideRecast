@@ -1,0 +1,15 @@
+{
+  "status": "private-test candidates; not formally released, uploaded, submitted or platform-accepted",
+  "archives": [
+    {
+      "file": "image-to-editable-ppt-claude-alpha.zip",
+      "bytes": 537473,
+      "sha256": "ef51c7fc9a3d4b84faf7f0e4b065da776c7486e86c8916efb59ad4662140a5f0"
+    },
+    {
+      "file": "sliderecast-openai-plugin-alpha.zip",
+      "bytes": 541834,
+      "sha256": "616ba6783135d998d3d90d2bacaa18b2312067c81865f47aa04f27d716b06e64"
+    }
+  ]
+}

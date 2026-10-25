@@ -1,0 +1,115 @@
+{
+  "file": "pptxgenjs.pptx",
+  "sha256": "b2495c99bfb9f8a21c2166a2ae7a9c571e96ddf7f00f12ac774cdba04ee51646",
+  "scope": "ZIP/XML/relationships/order/object inventory only; not full OOXML schema or UI editability validation",
+  "valid_package_checks": true,
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "index": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "SLIDERECAST / ORIGINAL TEST MATERIAL",
+        "Rebuild the visual. Keep the meaning.",
+        "Fidelity-first reconstruction / 高保真視覺重建",
+        "01",
+        "See the original",
+        "版面、字型、色彩",
+        "02",
+        "Recreate layers",
+        "Native text and shapes",
+        "主要元素可個別編輯",
+        "03",
+        "Compare & correct",
+        "Render before delivery",
+        "Source designed independently for testing. No client or company documents."
+      ],
+      "native_text_objects": 14,
+      "native_shapes": 106,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 0,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 3
+    },
+    {
+      "index": 2,
+      "part": "ppt/slides/slide2.xml",
+      "texts": [
+        "SLIDERECAST / ORIGINAL TEST MATERIAL",
+        "From pixels to editable layers",
+        "Complex screenshot fixture / 原始外觀優先",
+        "Inspect",
+        "Rebuild",
+        "Render",
+        "Correct",
+        "Targeted correction loop",
+        "文字保持原樣"
+      ],
+      "native_text_objects": 9,
+      "native_shapes": 41,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 0,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 4
+    },
+    {
+      "index": 3,
+      "part": "ppt/slides/slide3.xml",
+      "texts": [
+        "SLIDERECAST / ORIGINAL TEST MATERIAL",
+        "A chart is also a visual design",
+        "Default: editable shapes and labels. Native chart data only on request.",
+        "Observed sample values",
+        "32",
+        "Q1",
+        "58",
+        "Q2",
+        "76",
+        "Q3",
+        "92",
+        "Q4",
+        "Exact labels",
+        "32 / 58 / 76 / 92",
+        "No inferred data",
+        "No style changes"
+      ],
+      "native_text_objects": 16,
+      "native_shapes": 26,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 0,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 1
+    }
+  ],
+  "charts": [],
+  "expected_text": [
+    {
+      "slide": 1,
+      "missing": [],
+      "extra": [],
+      "exact": true
+    },
+    {
+      "slide": 2,
+      "missing": [],
+      "extra": [],
+      "exact": true
+    },
+    {
+      "slide": 3,
+      "missing": [],
+      "extra": [],
+      "exact": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "sliderecast",
+  "version": "0.1.0-alpha.1",
+  "description": "Fidelity-first image and PDF reconstruction skill for editable PowerPoint",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "fixtures": "node scripts/fixtures.mjs",
+    "benchmark": "python scripts/benchmark.py",
+    "test": "python -m unittest discover -s tests -v",
+    "package": "node scripts/build.mjs && python scripts/package.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyoCadence/Image-to-editable-PPT-SlideRecast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yoyoCadence/Image-to-editable-PPT-SlideRecast/issues"
+  },
+  "homepage": "https://github.com/yoyoCadence/Image-to-editable-PPT-SlideRecast#readme",
+  "dependencies": {
+    "@office-kit/pptx": "0.24.1",
+    "pptxgenjs": "4.0.1"
+  },
+  "devDependencies": {
+    "@office-kit/pptx-preview": "0.15.0",
+    "esbuild": "0.25.12",
+    "sharp": "0.35.5"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "overrides": {
+    "pptxgenjs": {
+      "image-size": "2.0.4"
+    }
+  }
+}

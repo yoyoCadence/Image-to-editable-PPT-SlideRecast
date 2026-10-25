@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-13",
+  "design": "3 independently authored synthetic known-layout fixtures, two engines. Shared coordinates intentionally measure authoring/rendering capability, not image understanding or agent generalization.",
+  "sample_slides_per_engine": 3,
+  "engines": {
+    "office-kit": {
+      "package_checks": true,
+      "text_object_exact_matches": 3,
+      "text_object_total": 39,
+      "text_slide_denominator": 3,
+      "inventory": [
+        {
+          "native_text_objects": 14,
+          "native_shapes": 24,
+          "connectors": 2,
+          "pictures": 0,
+          "gradient_fills": 1,
+          "shadows": 3
+        },
+        {
+          "native_text_objects": 9,
+          "native_shapes": 23,
+          "connectors": 10,
+          "pictures": 0,
+          "gradient_fills": 0,
+          "shadows": 4
+        },
+        {
+          "native_text_objects": 16,
+          "native_shapes": 22,
+          "connectors": 4,
+          "pictures": 0,
+          "gradient_fills": 0,
+          "shadows": 1
+        }
+      ],
+      "rendering": {
+        "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "seconds": 0.9508344140001554,
+        "pages": [
+          "slide-001.png",
+          "slide-002.png",
+          "slide-003.png"
+        ],
+        "source_sha256": "8eab6e7763a3312fcc3c044a766cd0098631b7d4e0f14d3994dcd10a8c6e5640",
+        "original_retained": true,
+        "microsoft_powerpoint_verified": false
+      },
+      "comparison": [
+        {
+          "fixture": "infographic",
+          "rgb_mae": 0.0173872302464653,
+          "changed_fraction": 0.0364900548696845,
+          "preview_vs_libreoffice_rgb_mae": 0.016996417108224176
+        },
+        {
+          "fixture": "complex-flow",
+          "rgb_mae": 0.010351911249181885,
+          "changed_fraction": 0.02033179012345679,
+          "preview_vs_libreoffice_rgb_mae": 0.010113336829930875
+        },
+        {
+          "fixture": "visual-chart",
+          "rgb_mae": 0.012075039000511042,
+          "changed_fraction": 0.025188614540466392,
+          "preview_vs_libreoffice_rgb_mae": 0.012781643087047347
+        }
+      ],
+      "preview_layout_audit": [
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-5",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        },
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-12",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        },
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-20",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        }
+      ],
+      "office_kit_package_validation": [],
+      "optional_chart": [
+        {
+          "part": "ppt/charts/chart1.xml",
+          "series": 1,
+          "cached_values": [
+            "32",
+            "58",
+            "76",
+            "92"
+          ],
+          "external_data_relationships": 1
+        }
+      ],
+      "pptx_bytes": 16561
+    },
+    "pptxgenjs": {
+      "package_checks": true,
+      "text_object_exact_matches": 3,
+      "text_object_total": 39,
+      "text_slide_denominator": 3,
+      "inventory": [
+        {
+          "native_text_objects": 14,
+          "native_shapes": 106,
+          "connectors": 0,
+          "pictures": 0,
+          "gradient_fills": 0,
+          "shadows": 3
+        },
+        {
+          "native_text_objects": 9,
+          "native_shapes": 33,
+          "connectors": 0,
+          "pictures": 0,
+          "gradient_fills": 0,
+          "shadows": 4
+        },
+        {
+          "native_text_objects": 16,
+          "native_shapes": 26,
+          "connectors": 0,
+          "pictures": 0,
+          "gradient_fills": 0,
+          "shadows": 1
+        }
+      ],
+      "rendering": {
+        "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "seconds": 1.0264828800000032,
+        "pages": [
+          "slide-001.png",
+          "slide-002.png",
+          "slide-003.png"
+        ],
+        "source_sha256": "1e3cb7d7f958b62893182141f3cc62a193ac1d1e83f5368fbb55f78f3d46b085",
+        "original_retained": true,
+        "microsoft_powerpoint_verified": false
+      },
+      "comparison": [
+        {
+          "fixture": "infographic",
+          "rgb_mae": 0.01841256376807696,
+          "changed_fraction": 0.040805898491083674,
+          "preview_vs_libreoffice_rgb_mae": 0.023487021123035405
+        },
+        {
+          "fixture": "complex-flow",
+          "rgb_mae": 0.010293945058590423,
+          "changed_fraction": 0.02033179012345679,
+          "preview_vs_libreoffice_rgb_mae": 0.016880111532495943
+        },
+        {
+          "fixture": "visual-chart",
+          "rgb_mae": 0.012069991348162494,
+          "changed_fraction": 0.02518775720164609,
+          "preview_vs_libreoffice_rgb_mae": 0.017792283054053813
+        }
+      ],
+      "preview_layout_audit": [
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-5",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        },
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-12",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        },
+        {
+          "slideIndex": 0,
+          "shapeName": "infographic-text-20",
+          "approximate": false,
+          "kind": "overflow-y",
+          "overflowPx": 4.89
+        }
+      ],
+      "office_kit_package_validation": [],
+      "optional_chart": [
+        {
+          "part": "ppt/charts/chart1.xml",
+          "series": 1,
+          "cached_values": [
+            "32",
+            "58",
+            "76",
+            "92"
+          ],
+          "external_data_relationships": 1
+        }
+      ],
+      "pptx_bytes": 145563
+    }
+  },
+  "pdf": {
+    "raster_pages": 3,
+    "selectable_pages": 2,
+    "text_extracted": [
+      true,
+      true
+    ]
+  },
+  "claude_ai": "BLOCKED: browser reached sign-in page; not executed",
+  "microsoft_powerpoint": "NOT EXECUTED",
+  "manual_repair_minutes": null,
+  "claude_tokens_or_cost": null
+}

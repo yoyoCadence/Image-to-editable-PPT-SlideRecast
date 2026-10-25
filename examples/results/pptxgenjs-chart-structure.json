@@ -1,0 +1,40 @@
+{
+  "file": "pptxgenjs-native-chart.pptx",
+  "sha256": "8ae5b1e1baf57e1e9eb0c65235759316e9ef4e1cfd334beabee21b96e43b1703",
+  "scope": "ZIP/XML/relationships/order/object inventory only; not full OOXML schema or UI editability validation",
+  "valid_package_checks": true,
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "index": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "Optional editable data probe"
+      ],
+      "native_text_objects": 1,
+      "native_shapes": 1,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 0,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 0
+    }
+  ],
+  "charts": [
+    {
+      "part": "ppt/charts/chart1.xml",
+      "series": 1,
+      "cached_values": [
+        "32",
+        "58",
+        "76",
+        "92"
+      ],
+      "external_data_relationships": 1
+    }
+  ],
+  "expected_text": []
+}

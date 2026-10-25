@@ -1,0 +1,13 @@
+{
+  "renderer": "@office-kit/pptx-preview 0.15.0",
+  "seconds": 1.0586907900000002,
+  "fontFile": "/root/.local/share/fonts/NotoSansCJKtc-Regular.otf",
+  "images": [
+    "slide-001.png",
+    "slide-002.png",
+    "slide-003.png"
+  ],
+  "layout_audit": [],
+  "package_validation": [],
+  "scope": "Approximate preview and font-dependent layout heuristic; not Microsoft validation."
+}

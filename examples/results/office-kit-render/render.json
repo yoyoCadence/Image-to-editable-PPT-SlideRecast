@@ -1,0 +1,12 @@
+{
+  "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "seconds": 1.2980628199998137,
+  "pages": [
+    "slide-001.png",
+    "slide-002.png",
+    "slide-003.png"
+  ],
+  "source_sha256": "9fb197e8fdca852cf9862cb1b841b9bb08cec31fe20b2522577f2fac2e664ac9",
+  "original_retained": true,
+  "microsoft_powerpoint_verified": false
+}

@@ -1,0 +1,43 @@
+{
+  "file": "editable-flow.pptx",
+  "sha256": "ca89ed3165bbaff9e3662e8981b0585b7ac5ef004fdf0e27b61043dac6ebd715",
+  "scope": "ZIP/XML/relationships/order/object inventory only; not full OOXML schema or UI editability validation",
+  "valid_package_checks": true,
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "index": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "SLIDERECAST / ORIGINAL TEST MATERIAL",
+        "From pixels to editable layers",
+        "Complex screenshot fixture / 原始外觀優先",
+        "Inspect",
+        "Rebuild",
+        "Render",
+        "Correct",
+        "Targeted correction loop",
+        "文字保持原樣"
+      ],
+      "native_text_objects": 9,
+      "native_shapes": 33,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 0,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 4
+    }
+  ],
+  "charts": [],
+  "expected_text": [
+    {
+      "slide": 1,
+      "missing": [],
+      "extra": [],
+      "exact": true
+    }
+  ]
+}

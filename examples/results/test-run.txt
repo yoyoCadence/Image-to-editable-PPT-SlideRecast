@@ -1,0 +1,21 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sliderecast@0.1.0-alpha.1 test
+> python -m unittest discover -s tests -v
+
+test_archive_structure_and_native_binaries_excluded (test_distribution.DistributionTests.test_archive_structure_and_native_binaries_excluded) ... ok
+test_manifest_assets_and_skill (test_distribution.DistributionTests.test_manifest_assets_and_skill) ... ok
+test_truncated_archive_is_rejected (test_distribution.DistributionTests.test_truncated_archive_is_rejected) ... ok
+test_both_engines_exact_text_and_native_objects (test_quality.PackageTests.test_both_engines_exact_text_and_native_objects) ... ok
+test_chart_cache_and_embedded_workbook_edit (test_quality.PackageTests.test_chart_cache_and_embedded_workbook_edit) ... ok
+test_edit_proof_retains_originals (test_quality.PackageTests.test_edit_proof_retains_originals) ... ok
+test_invalid_relationship_detected (test_quality.PackageTests.test_invalid_relationship_detected) ... ok
+test_png_embedding_with_overridden_dependency (test_quality.PackageTests.test_png_embedding_with_overridden_dependency) ... ok
+test_wrong_text_and_wrong_page_order_fail (test_quality.PackageTests.test_wrong_text_and_wrong_page_order_fail) ... ok
+test_identity_pixels_and_wrong_aspect (test_quality.PixelAndPdfTests.test_identity_pixels_and_wrong_aspect) ... ok
+test_pdf_page_order_and_selectable_text (test_quality.PixelAndPdfTests.test_pdf_page_order_and_selectable_text) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.425s
+
+OK
