@@ -1,0 +1,8 @@
+# Developer/QA only. No Python libraries are redistributed inside Skill ZIPs.
+# PyMuPDF is AGPL/commercial dual-licensed; distribution/legal review is pending.
+Pillow==12.3.0
+PyMuPDF==1.26.6
+openpyxl==3.1.5
+python-pptx==1.0.2
+pypdf==6.10.0
+jsonschema==4.25.1

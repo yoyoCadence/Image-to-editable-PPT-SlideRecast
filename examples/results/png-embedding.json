@@ -1,0 +1,28 @@
+{
+  "file": "png-embedding.pptx",
+  "sha256": "351a9f25832aea3fc8dc8d874d61e1f6e976594b8d7c1ca21742e40469f0c328",
+  "scope": "ZIP/XML/relationships/order/object inventory only; not full OOXML schema or UI editability validation",
+  "valid_package_checks": true,
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "index": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "PNG embedding compatibility probe"
+      ],
+      "native_text_objects": 1,
+      "native_shapes": 1,
+      "connectors": 0,
+      "groups": 0,
+      "pictures": 1,
+      "large_picture": false,
+      "outside_canvas": [],
+      "gradient_fills": 0,
+      "shadows": 0
+    }
+  ],
+  "charts": [],
+  "expected_text": []
+}

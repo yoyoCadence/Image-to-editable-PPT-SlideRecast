@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "image-to-editable-ppt",
+  "version": "0.1.0-alpha.1",
+  "description": "Convert images and PDFs into visually faithful, editable PowerPoint presentations using AI agents.",
+  "author": {"name": "yoyoCadence", "url": "https://github.com/yoyoCadence"},
+  "repository": "https://github.com/yoyoCadence/Image-to-editable-PPT-SlideRecast",
+  "keywords": ["image to editable ppt", "pdf to powerpoint", "visual reconstruction"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Image to Editable PPT — SlideRecast",
+        "shortDescription": "Faithful images and PDFs to editable PowerPoint",
+        "longDescription": "Recreate existing image and PDF layouts as editable PowerPoint objects. Preserve wording and visual design, render the output, compare it with the source, and correct local differences. Native chart data editing is optional. Development preview: Claude.ai and Microsoft application checks remain pending.",
+        "developerName": "yoyoCadence",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": ["Recreate this screenshot as an editable PPTX while preserving its appearance and wording.", "將這份 PDF 忠實重建為可編輯 PowerPoint，請渲染比對並說明限制。"],
+        "brandColor": "#245CEC",
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}

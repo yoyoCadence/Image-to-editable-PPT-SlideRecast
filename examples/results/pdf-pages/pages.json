@@ -1,0 +1,29 @@
+[
+  {
+    "page": 1,
+    "width_pt": 960.0,
+    "height_pt": 540.0,
+    "image": "page-001.png",
+    "text": "page-001.txt",
+    "has_extractable_text": false,
+    "rotation_deg": 0
+  },
+  {
+    "page": 2,
+    "width_pt": 960.0,
+    "height_pt": 540.0,
+    "image": "page-002.png",
+    "text": "page-002.txt",
+    "has_extractable_text": false,
+    "rotation_deg": 0
+  },
+  {
+    "page": 3,
+    "width_pt": 960.0,
+    "height_pt": 540.0,
+    "image": "page-003.png",
+    "text": "page-003.txt",
+    "has_extractable_text": false,
+    "rotation_deg": 0
+  }
+]

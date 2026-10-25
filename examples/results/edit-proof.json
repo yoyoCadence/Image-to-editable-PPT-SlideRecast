@@ -1,0 +1,36 @@
+[
+  {
+    "engine": "office-kit",
+    "text_changed": true,
+    "shape_fill_changed": true,
+    "shape_position_changed": true,
+    "chart_values_read_back": [
+      33,
+      59,
+      77,
+      93
+    ],
+    "original_sha256": "9fb197e8fdca852cf9862cb1b841b9bb08cec31fe20b2522577f2fac2e664ac9",
+    "original_retained": true,
+    "method": "Office Kit load/edit/save/reload on native objects. Embedded XLSX validated separately.",
+    "ui_selection_verified": false,
+    "microsoft_verified": false
+  },
+  {
+    "engine": "pptxgenjs",
+    "text_changed": true,
+    "shape_fill_changed": true,
+    "shape_position_changed": true,
+    "chart_values_read_back": [
+      33,
+      59,
+      77,
+      93
+    ],
+    "original_sha256": "b2495c99bfb9f8a21c2166a2ae7a9c571e96ddf7f00f12ac774cdba04ee51646",
+    "original_retained": true,
+    "method": "Office Kit load/edit/save/reload on native objects. Embedded XLSX validated separately.",
+    "ui_selection_verified": false,
+    "microsoft_verified": false
+  }
+]

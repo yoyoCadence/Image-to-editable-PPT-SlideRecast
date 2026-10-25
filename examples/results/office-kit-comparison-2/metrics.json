@@ -1,0 +1,341 @@
+{
+  "source_size": [
+    1440,
+    810
+  ],
+  "render_size_before_resampling": [
+    1440,
+    810
+  ],
+  "normalized_rgb_mae": 0.010535511758429938,
+  "pixels_with_max_channel_delta_gt_24_fraction": 0.02133230452674897,
+  "threshold": 24,
+  "method": "RGB MAE divided by 255, rendered resampled to source size, no alignment correction; difference may include font/antialiasing/renderer effects",
+  "ranked_regions": [
+    {
+      "box_px": [
+        240,
+        0,
+        480,
+        135
+      ],
+      "normalized_mae": 0.07920221092552247
+    },
+    {
+      "box_px": [
+        0,
+        0,
+        240,
+        135
+      ],
+      "normalized_mae": 0.054400145243282495
+    },
+    {
+      "box_px": [
+        480,
+        0,
+        720,
+        135
+      ],
+      "normalized_mae": 0.04081021544420237
+    },
+    {
+      "box_px": [
+        240,
+        135,
+        480,
+        270
+      ],
+      "normalized_mae": 0.038796498023077546
+    },
+    {
+      "box_px": [
+        0,
+        135,
+        240,
+        270
+      ],
+      "normalized_mae": 0.023482812878237714
+    },
+    {
+      "box_px": [
+        0,
+        675,
+        240,
+        810
+      ],
+      "normalized_mae": 0.02160723795691116
+    },
+    {
+      "box_px": [
+        720,
+        405,
+        960,
+        540
+      ],
+      "normalized_mae": 0.018231743726297104
+    },
+    {
+      "box_px": [
+        0,
+        405,
+        240,
+        540
+      ],
+      "normalized_mae": 0.017713426934559833
+    },
+    {
+      "box_px": [
+        720,
+        540,
+        960,
+        675
+      ],
+      "normalized_mae": 0.01578963931251513
+    },
+    {
+      "box_px": [
+        960,
+        405,
+        1200,
+        540
+      ],
+      "normalized_mae": 0.013540466392318245
+    },
+    {
+      "box_px": [
+        480,
+        405,
+        720,
+        540
+      ],
+      "normalized_mae": 0.011831759864439602
+    },
+    {
+      "box_px": [
+        480,
+        135,
+        720,
+        270
+      ],
+      "normalized_mae": 0.010703945775841201
+    },
+    {
+      "box_px": [
+        240,
+        405,
+        480,
+        540
+      ],
+      "normalized_mae": 0.010003792463487452
+    },
+    {
+      "box_px": [
+        480,
+        540,
+        720,
+        675
+      ],
+      "normalized_mae": 0.008851811506495602
+    },
+    {
+      "box_px": [
+        1200,
+        405,
+        1440,
+        540
+      ],
+      "normalized_mae": 0.007577463083999032
+    },
+    {
+      "box_px": [
+        480,
+        270,
+        720,
+        405
+      ],
+      "normalized_mae": 0.0010569272976680385
+    },
+    {
+      "box_px": [
+        0,
+        270,
+        240,
+        405
+      ],
+      "normalized_mae": 0.0010472444121681595
+    },
+    {
+      "box_px": [
+        720,
+        270,
+        960,
+        405
+      ],
+      "normalized_mae": 0.00104240296941822
+    },
+    {
+      "box_px": [
+        1200,
+        270,
+        1440,
+        405
+      ],
+      "normalized_mae": 0.0010213830388122328
+    },
+    {
+      "box_px": [
+        240,
+        270,
+        480,
+        405
+      ],
+      "normalized_mae": 0.0009333494714758332
+    },
+    {
+      "box_px": [
+        960,
+        270,
+        1200,
+        405
+      ],
+      "normalized_mae": 0.0008537077382393286
+    },
+    {
+      "box_px": [
+        480,
+        675,
+        720,
+        810
+      ],
+      "normalized_mae": 0.0005129912047123377
+    },
+    {
+      "box_px": [
+        720,
+        675,
+        960,
+        810
+      ],
+      "normalized_mae": 0.0001457274267731784
+    },
+    {
+      "box_px": [
+        1200,
+        540,
+        1440,
+        675
+      ],
+      "normalized_mae": 3.5584604212055195e-05
+    },
+    {
+      "box_px": [
+        0,
+        540,
+        240,
+        675
+      ],
+      "normalized_mae": 3.36480271120794e-05
+    },
+    {
+      "box_px": [
+        240,
+        540,
+        480,
+        675
+      ],
+      "normalized_mae": 2.61437908496732e-05
+    },
+    {
+      "box_px": [
+        960,
+        540,
+        1200,
+        675
+      ],
+      "normalized_mae": 2.61437908496732e-05
+    },
+    {
+      "box_px": [
+        720,
+        0,
+        960,
+        135
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        960,
+        0,
+        1200,
+        135
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        1200,
+        0,
+        1440,
+        135
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        720,
+        135,
+        960,
+        270
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        960,
+        135,
+        1200,
+        270
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        1200,
+        135,
+        1440,
+        270
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        240,
+        675,
+        480,
+        810
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        960,
+        675,
+        1200,
+        810
+      ],
+      "normalized_mae": 0.0
+    },
+    {
+      "box_px": [
+        1200,
+        675,
+        1440,
+        810
+      ],
+      "normalized_mae": 0.0
+    }
+  ],
+  "semantic_or_text_correctness": "not measured by pixels"
+}
